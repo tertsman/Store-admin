@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stye.css">
+    <link rel="shortcut icon" href="asset/user/fav.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Manage Setting</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- aside -->
+        <div class="aside">
+            <div class="asideHeader">
+                <div class="logo">
+                    <i class='bx bx-cart'></i>
+                    <h1>Store.</h1>
+                </div>
+            </div>
+            <div class="asideMenu">
+                <ul>
+                    <li><a href="index.html">
+                            <span class="icon"><i class='bx bxs-dashboard'></i></span>
+                            <span class="title">Dashbord</span>
+                        </a></li>
+                    <li><a href="ProductPage.html">
+                            <span class="icon"><i class='bx bxl-product-hunt'></i></span>
+                            <span class="title">Product</span>
+                        </a></li>
+                    <li><a href="#">
+                            <span class="icon"><i class='bx bx-category-alt'></i></span>
+                            <span class="title">Category</span>
+                        </a></li>
+                    <li><a href="CustomerPage.html">
+                            <span class="icon"><i class='bx bx-user'></i></span>
+                            <span class="title">Customer</span>
+                        </a></li>
+                    <li><a href="Order.html">
+                            <span class="icon"><i class='bx bx-cart-add'></i></span>
+                            <span class="title">Order</span>
+                        </a></li>
+                    <li class="active-menu"><a href="Setting.html">
+                            <span class="icon"><i class='bx bx-cog'></i></span>
+                            <span class="title">Setting</span>
+                        </a></li>
+                        <li><a href="LoginPage.html" >
+                            <span class="icon"><i class='bx bx-log-in' style="color: red;" ></i></span>
+                            <span class="title" style="color: red;" >Login</span>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end -->
+        <!-- main -->
+        <main class="mainsection">
+            <div class="mainheader">
+                <div class="toggle">
+                    <i class='bx bx-menu-alt-left'></i>
+                </div>
+                <div class="seachbar">
+                    <input type="text" placeholder="Seacr item ...">
+                    <div class="icon"><i class='bx bx-search'></i></div>
+                </div>
+                <div class="profile-user">
+                    <div class="notification">
+                        <details>
+                            <summary><i class='bx bxs-bell'><span class="not">5</span></i></summary>
+                            <div class="notification-box">
+                                <div class="noti-header">
+                                    <p>Notifications</p>
+                                    <span><a href="#">Mark all as read</a></span>
+                                </div>
+                                <div class="notifi-body">
+                                    <div class="notification-row">
+                                        <div class="noti-col-image">
+                                            <img src="asset/user/OIP (1).jpg" alt="">
+                                        </div>
+                                        <div class="noti-col">
+                                            <p><b>Emma watson</b> replay you Comment: "Hello Word😍"</p>
+                                            <span><i class='bx bx-message-rounded-dots'></i> <p>Just now</p></span>
+                                        </div>
+                                    </div>
+                                    <div class="notification-row">
+                                        <div class="noti-col-image">
+                                            <img src="asset/user/OIP (2).jpg" alt="">
+                                        </div>
+                                        <div class="noti-col">
+                                            <p><b>Emma watson</b> replay you Comment: "Hello Word😍"</p>
+                                            <span><i class='bx bx-message-rounded-dots'></i> <p>Just now</p></span>
+                                        </div>
+                                    </div>
+                                    <div class="notification-row">
+                                        <div class="noti-col-image">
+                                            <img src="asset/user/OIP.jpg" alt="">
+                                        </div>
+                                        <div class="noti-col">
+                                            <p><b>Emma watson</b> replay you Comment: "Hello Word😍"</p>
+                                            <span><i class='bx bx-message-rounded-dots'></i> <p>Just now</p></span>
+                                        </div>
+                                    </div>
+                                    <div class="notification-row">
+                                        <div class="noti-col-image">
+                                            <img src="asset/user/th.jpg" alt="">
+                                        </div>
+                                        <div class="noti-col">
+                                            <p><b>Emma watson</b> replay you Comment: "Hello Word😍"</p>
+                                            <span><i class='bx bx-message-rounded-dots'></i> <p>Just now</p></span>
+                                        </div>
+                                    </div>
+                                    <div class="notification-row">
+                                        <div class="noti-col-image">
+                                            <img src="asset/user/OIP (4).jpg" alt="">
+                                        </div>
+                                        <div class="noti-col">
+                                            <p><b>Emma watson</b> replay you Comment: "Hello Word😍"</p>
+                                            <span><i class='bx bx-message-rounded-dots'></i> <p>Just now</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifi-footer">
+                                    View All
+                                </div>
+                            </div>
+                        </details>
+                        
+                            
+                            
+                        
+                        
+                    </div>
+                    <div class="title-profilr">
+                        <h4>Tert Sman</h4>
+                        <p>Admin</p>
+                    </div>
+                    <details>
+                        <summary><div class="image-profile">
+                            <img src="asset/user/user.jpeg" alt="">
+                        </div></summary>
+                        <div class="profil-header-box">
+                            <div class="profile-header-row">
+                                <p><i class='bx bxs-crown'></i> Get Pro</p>
+                            </div>
+                            <div class="profile-header-row">
+                                <h6>Set Status</h6>
+                                <h6>Profile & Account</h6>
+                                <h6>Feedback</h6>
+                            </div>
+                            <div class="profile-header-row">
+                                <h6><a href="Setting.html">Setting</a></h6>
+                                <h6><a href="LoginPage.html">Logout</a></h6>
+                                
+                            </div>
+                        </div>
+                    </details>
+                   
+                </div>
+            </div>
+
+            <!-- Product section -->
+            <div class="product-section user">
+
+                <div class="user-section">
+                    <div class="user-profile">
+                        <div class="user-profile-box">
+                            <div class="user-bg">
+
+                            </div>
+                            <div class="user-black">
+                                <div class="image-profile">
+                                    <div class="image-padd">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-body">
+                        <div class="user-box-left">
+                            <div class="profile-setting-box">
+                                <div class="profile-setting-header">
+                                    <h4>Profile Setting</h4>
+                                </div>
+                                <div class="profile-setting-body">
+                                    <div class="profile-control">
+                                        <div class="profile-control-row">
+                                            <div class="profile-control-item">
+                                                <label for="">First Name</label>
+                                                <div class="setting-form">
+                                                    <input type="text" value="Tert">
+                                                </div>
+                                            </div>
+                                            <div class="profile-control-item">
+                                                <label for="">Last Name</label>
+                                                <div class="setting-form">
+                                                    <input type="text" value="Sman">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="profile-control-row">
+                                            <div class="profile-control-item">
+                                                <label for="">Email </label>
+                                                <div class="setting-form">
+                                                    <input type="text" value="tertsman@gmai.com">
+                                                </div>
+                                            </div>
+                                            <div class="profile-control-item">
+                                                <label for="">Phone</label>
+                                                <div class="setting-form">
+                                                    <input type="text" value="+855 974 260 963">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="profile-control-row">
+                                            <div class="profile-control-item">
+                                                <label for="">Heading</label>
+                                                <div class="setting-form">
+                                                    <input type="text" value="Software Engineer">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="profile-control-row">
+                                            <div class="profile-control-item">
+                                                <label for="">intro</label>
+                                                <div class="setting-form tex">
+                                                    <textarea name="" id="">Dedicated, passionate, and accomplished Full Stack Developer with 9+ years of progressive experience working as an Independent Contractor for Google and developing and growing my educational social network that helps others learn programming, web design, game development, networking. I’ve acquired a wide depth of knowledge and expertise in using my technical skills in programming, computer science, software development, and mobile app development to developing solutions to help organizations increase productivity, and accelerate business performance. It’s great that we live in an age where we can share so much with technology but I’m but I’m ready for the next phase of my career, with a healthy balance between the virtual world and a workplace where I help others face-to-face. There’s always something new to learn, especially in IT-related fields. People like working with me because I can explain technology to everyone, from staff to executives who need me to tie together the details and the big picture. I can also implement the technologies that successful projects need.
+                                                </textarea>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="profile-control-footer">
+                                        <div class="btn-update">
+                                            Update
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="experien-box">
+                                <div class="experien-header">
+                                    <h4>Experiens</h4>
+                                </div>
+                                <div class="experirn-body">
+                                    <div class="excperirn-detail">
+                                        <details>
+                                            <summary>
+                                                <div class="add-box"><i class='bx bx-plus'></i></div>
+                                                <div class="addtile">Add new experience</div>
+                                            </summary>
+                                            <div class="experien-form">
+                                                <div class="exprien-form-item">
+                                                    <label for="">Company Name</label>
+                                                    <div class="experien-control">
+                                                        <input type="text" placeholder="Compaby Name">
+                                                    </div>
+                                                </div>
+                                                <div class="exprien-form-item">
+                                                    <label for="">Position</label>
+                                                    <div class="experien-control">
+                                                        <input type="text" placeholder="Position">
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="exprien-form-item">
+                                                    <label for="">City</label>
+                                                    <div class="experien-control">
+                                                        <input type="text" placeholder="City">
+                                                    </div>
+                                                </div>
+                                                <div class="exprien-form-item">
+                                                    <label for="">Description</label>
+                                                    <div class="experien-control">
+                                                        <textarea name="" placeholder="Description" id=""></textarea>
+                                                    </div>
+                                                    <div class="check">
+                                                        <input type="checkbox">
+                                                        <p>I currently work here</p>
+                                                    </div>
+                                                </div>
+                                                <div class="exprien-form-item">
+                                                    <label for="">From</label>
+                                                    <div class="experien-control">
+                                                        <input type="date" placeholder="select date">
+                                                    </div>
+                                                </div>
+                                                <div class="exprien-form-item">
+                                                    <label for="">To</label>
+                                                    <div class="experien-control">
+                                                        <input type="date" placeholder="select date">
+                                                    </div>
+                                                </div>
+                                                <div class="form-action">
+                                                    <div class="savebtn">
+                                                        Save
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </details>
+                                    </div>
+                                    <div class="experirn-info">
+                                        <div class="company-logo">
+                                            <img src="asset/user/google.png" alt="">
+                                        </div>
+                                        <div class="company-name">
+                                            <h5>Big Data Engineer</h5>
+                                            <a href="#">Google</a>
+                                            <p>Apr 2012 - Present • 6 yrs 9 mon</p>
+                                            <p>California, USA</p>
+                                        </div>
+                                    </div>
+                                    <div class="experirn-info">
+                                        <div class="company-logo">
+                                            <img src="asset/user/apple.png" alt="">
+                                        </div>
+                                        <div class="company-name">
+                                            <h5>Software Engineer</h5>
+                                            <a href="#">Apple</a>
+                                            <p>Jan 2012 - Apr 2012 • 4 mon</p>
+                                            <p>California, USA</p>
+                                        </div>
+                                    </div>
+                                    <div class="experirn-info">
+                                        <div class="company-logo">
+                                            <img src="asset/user/nike.jpg" alt="">
+                                        </div>
+                                        <div class="company-name">
+                                            <h5>Mobile App Develope</h5>
+                                            <a href="#">Nike</a>
+                                            <p>Jan 2011 - Apr 2012 • 1 yrs 4 mon</p>
+                                            <p>Beaverton, USA</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="experien-box">
+                                <div class="experien-header">
+                                    <h4>Education</h4>
+                                </div>
+                                <div class="experirn-body">
+                                    <div class="excperirn-detail">
+                                        <details>
+                                            <summary>
+                                                <div class="add-box"><i class='bx bx-plus'></i></div>
+                                                <div class="addtile">Add new Education</div>
+                                            </summary>
+                                            <div class="experien-form">
+                                                <div class="exprien-form-item">
+                                                    <label for="">School</label>
+                                                    <div class="experien-control">
+                                                        <input type="text" placeholder="School">
+                                                    </div>
+                                                </div>
+                                                <div class="exprien-form-item">
+                                                    <label for="">Degree</label>
+                                                    <div class="experien-control">
+                                                        <input type="text" placeholder="Degree">
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="exprien-form-item">
+                                                    <label for="">Field</label>
+                                                    <div class="experien-control">
+                                                        <input type="text" placeholder="Field">
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="exprien-form-item">
+                                                    <label for="">From</label>
+                                                    <div class="experien-control">
+                                                        <input type="date" placeholder="select date">
+                                                    </div>
+                                                </div>
+                                                <div class="exprien-form-item">
+                                                    <label for="">To</label>
+                                                    <div class="experien-control">
+                                                        <input type="date" placeholder="select date">
+                                                    </div>
+                                                </div>
+                                                <div class="form-action">
+                                                    <div class="savebtn">
+                                                        Save
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </details>
+                                    </div>
+                                    <div class="experirn-info">
+                                        <div class="company-logo">
+                                            <img src="asset/user/uhst.jpg" alt="">
+                                        </div>
+                                        <div class="company-name">
+                                            <h5><a href="#">Univercity Of Heng Samrin</a></h5>
+                                            
+                                            <p>Computer Science and Engineering</p>
+                                            <p>2023 - 2027 • 4 yrs</p>
+                                            <p>Tbong khmom</p>
+                                        </div>
+                                    </div>
+                                    <div class="experirn-info">
+                                        <div class="company-logo">
+                                            <img src="asset/user/cisco.jpg" alt="">
+                                        </div>
+                                        <div class="company-name">
+                                            <h5><a href="#">Cisco Academic </a></h5>
+                                            <p>PC Hardware And Software</p>
+                                            <p>2023 - Apr 2024 • 1 yrs</p>
+                                            <p>Tbong Khmom,</p>
+                                        </div>
+                                    </div>
+                                    <div class="experirn-info">
+                                        <div class="company-logo">
+                                            <img src="asset/user/9+3.jpg" alt="">
+                                        </div>
+                                        <div class="company-name">
+                                            <h5><a href="#">Institute of Technical and Vocational Training</a></h5>
+                                            
+                                            <p>Computer Science and Engineering</p>
+                                            <p> 2021 - Apr 2023 • 3 yrs</p>
+                                            <p>Tbong Khmom,</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-box-right">
+                            <div class="account-setting-box">
+                                <div class="account-header">
+                                    <h4>Account Setting</h4>
+                                </div>
+                               
+                                <div class="account-row">
+                                    <div class="account-title">Who can see your profile ?</div>
+                                    <div class="account-item">
+                                       <label >
+                                            <input type="radio" name="kk">
+                                            <div class="circle"></div>
+                                            <span>Everyone</span>
+                                       </label>
+                                       <label >
+                                            <input type="radio" name="kk" checked>
+                                            <div class="circle"></div>
+                                            <span>My Followers</span>
+                                       </label>
+                                       <label >
+                                            <input type="radio" name="kk">
+                                            <div class="circle"></div>
+                                            <span>Only Me</span>
+                                       </label>
+                                       
+                                    </div>
+                                </div>
+                                <div class="account-row">
+                                    <div class="account-title">Who can tag you ?</div>
+                                    <div class="account-item">
+                                       <label >
+                                            <input type="radio" name="kk1">
+                                            <div class="circle"></div>
+                                            <span>Everyone</span>
+                                       </label>
+                                       <label >
+                                            <input type="radio" name="kk1" checked>
+                                            <div class="circle"></div>
+                                            <span>Qroup Members</span>
+                                       </label>
+                                       
+                                    </div>
+                                </div>
+                                <div class="account-row">
+                                    
+                                    <div class="account-item">
+                                       <label >
+                                            <input type="radio" name="kk2" checked>
+                                            <div class="circle"></div>
+                                            <span>Allow users to show your followers</span>
+                                       </label>
+                                       <label >
+                                            <input type="radio" name="kk3" checked>
+                                            <div class="circle"></div>
+                                            <span>Allow users to show your email</span>
+                                       </label>
+                                       <label >
+                                            <input type="radio" name="kk4" >
+                                            <div class="circle"></div>
+                                            <span>Allow users to show your experiences</span>
+                                       </label>
+                                       
+                                    </div>
+                                </div>
+                               
+                                
+                            </div>
+                            <div class="account-billing-setting">
+                                <div class="account-billing-head">
+                                    <h4>Billing Setting</h4>
+                                </div>
+                                <div class="account-billing-row">
+                                    <div class="billing-title">
+                                        <h5>Plan</h5>
+                                    </div>
+                                    <p><b>Developer</b>-Unlimited private repositories</p>
+                                    <div class="billing-btn">
+                                        <div class="updateplan">
+                                            Update Plan
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="account-billing-row">
+                                    <div class="billing-title">
+                                        <h5>Payment</h5>
+                                    </div>
+                                    <p>You have not added any payment.</p>
+                                    <div class="billing-btn">
+                                        <div class="updateplan">
+                                            Add Payment
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="change-pw-box">
+                                <div class="change-pw-head">
+                                    <h4>Change Password</h4>
+                                </div>
+                                <div class="change-pw-row">
+                                    <div class="change-pw-control">
+                                        <label for="">Old Password</label>
+                                        <div class="pw-cn">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <div class="change-pw-control">
+                                        <label for="">New Password</label>
+                                        <div class="pw-cn">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <div class="change-pw-control">
+                                        <label for="">Confirm Password</label>
+                                        <div class="pw-cn">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="update-pw">
+                                   
+                                        Update Password
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="footer">
+                &copy;Assignment team one 2025 | Developer Tert Sman
+            </div>
+            <!-- end -->
+            <!-- order detai -->
+
+        </main>
+        <!-- <div class="main-from">
+            <div class="frm">
+                <div class="frm-header">
+                    <div class="frm-title">
+                        <h4>Category</h4>
+                    </div>
+                    <div class="form-action" id="close">
+                        <i class='bx bx-x'></i>
+                    </div>
+                </div>
+                <div class="from-body">
+                    <label for="">Category Name</label>
+                    <div class="from-controll">
+                        <input type="text" placeholder="Category Name">
+
+                    </div>
+                    <label for="">Descriptions</label>
+                    <div class="from-controll">
+                        <input type="text" placeholder="Category Des">
+                    </div>
+                    <label for="">Status</label>
+                    <div class="from-controll">
+                        <select name="size" id="size">
+                            <option value="1">-----select----</option>
+                            <option value="1">Active</option>
+                            <option value="1">In Active</option>
+                        </select>
+                    </div>
+                    <label for="">Image</label>
+                    <div class="from-controll">
+                        <input type="file" placeholder="image" multiple>
+                    </div>
+                </div>
+                <div class="footerform">
+                    <div class="can-btn"><a>Cancale</a></div>
+                    <div class="save-btn"><a>save</a></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- end -->
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let navigate = document.querySelector('.aside');
+        let main = document.querySelector('.mainsection')
+
+        toggle.onclick = function () {
+            navigate.classList.toggle('action');
+            main.classList.toggle('changwidth')
+        }
+        let add_New = document.querySelector('.btn-add');
+        let main_Form = document.querySelector('.main-from')
+        let btn_close = document.querySelector('.form-action');
+        let btn_save = document.querySelector(".save-btn");
+        let btn_cancel = document.querySelector(".can-btn");
+
+        add_New.onclick = function () {
+            main_Form.classList.add('showForm');
+        }
+        btn_close.onclick = function () {
+            main_Form.classList.remove('showForm')
+        }
+        btn_cancel.onclick = function () {
+            main_Form.classList.remove("showForm");
+        };
+        btn_save.onclick = function () {
+            main_Form.classList.remove("showForm");
+        };
+
+    </script>
+</body>
+
+</html>

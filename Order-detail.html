@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stye.css">
+    <link rel="shortcut icon" href="asset/user/fav.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Order-detail</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- aside -->
+        <div class="aside">
+            <div class="asideHeader">
+                <div class="logo">
+                    <i class='bx bx-cart'></i>
+                    <h1>Store.</h1>
+                </div>
+            </div>
+            <div class="asideMenu">
+                <ul>
+                    <li><a href="index.html">
+                            <span class="icon"><i class='bx bxs-dashboard'></i></span>
+                            <span class="title">Dashbord</span>
+                        </a></li>
+                    <li><a href="ProductPage.html">
+                            <span class="icon"><i class='bx bxl-product-hunt'></i></span>
+                            <span class="title">Product</span>
+                        </a></li>
+                    <li><a href="categoryPage.html">
+                            <span class="icon"><i class='bx bx-category-alt'></i></span>
+                            <span class="title">Category</span>
+                        </a></li>
+                    <li><a href="CustomerPage.html">
+                            <span class="icon"><i class='bx bx-user'></i></span>
+                            <span class="title">Customer</span>
+                        </a></li>
+                    <li class="active-menu"><a href="Order.html">
+                            <span class="icon"><i class='bx bx-cart-add'></i></span>
+                            <span class="title">Order</span>
+                        </a></li>
+                    <li><a href="Setting.html">
+                            <span class="icon"><i class='bx bx-cog'></i></span>
+                            <span class="title">Setting</span>
+                        </a></li>
+                        <li><a href="LoginPage.html" >
+                            <span class="icon"><i class='bx bx-log-in' style="color: red;" ></i></span>
+                            <span class="title" style="color: red;" >Login</span>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end -->
+        <!-- main -->
+        <main class="mainsection">
+            <div class="mainheader">
+                <div class="toggle">
+                    <i class='bx bx-menu-alt-left'></i>
+                </div>
+                <div class="seachbar">
+                    <input type="text" placeholder="Seacr item ...">
+                    <div class="icon"><i class='bx bx-search'></i></div>
+                </div>
+                <div class="profile-user">
+                    <div class="notification">
+                        <details>
+                            <summary><i class='bx bxs-bell'><span class="not">5</span></i></summary>
+                            <div class="notification-box">
+                                <div class="noti-header">
+                                    <p>Notifications</p>
+                                    <span><a href="#">Mark all as read</a></span>
+                                </div>
+                                <div class="notifi-body">
+                                    <div class="notification-row">
+                                        <div class="noti-col-image">
+                                            <img src="asset/user/OIP (1).jpg" alt="">
+                                        </div>
+                                        <div class="noti-col">
+                                            <p><b>Emma watson</b> replay you Comment: "Hello Word😍"</p>
+                                            <span><i class='bx bx-message-rounded-dots'></i> <p>Just now</p></span>
+                                        </div>
+                                    </div>
+                                    <div class="notification-row">
+                                        <div class="noti-col-image">
+                                            <img src="asset/user/OIP (2).jpg" alt="">
+                                        </div>
+                                        <div class="noti-col">
+                                            <p><b>Emma watson</b> replay you Comment: "Hello Word😍"</p>
+                                            <span><i class='bx bx-message-rounded-dots'></i> <p>Just now</p></span>
+                                        </div>
+                                    </div>
+                                    <div class="notification-row">
+                                        <div class="noti-col-image">
+                                            <img src="asset/user/OIP.jpg" alt="">
+                                        </div>
+                                        <div class="noti-col">
+                                            <p><b>Emma watson</b> replay you Comment: "Hello Word😍"</p>
+                                            <span><i class='bx bx-message-rounded-dots'></i> <p>Just now</p></span>
+                                        </div>
+                                    </div>
+                                    <div class="notification-row">
+                                        <div class="noti-col-image">
+                                            <img src="asset/user/th.jpg" alt="">
+                                        </div>
+                                        <div class="noti-col">
+                                            <p><b>Emma watson</b> replay you Comment: "Hello Word😍"</p>
+                                            <span><i class='bx bx-message-rounded-dots'></i> <p>Just now</p></span>
+                                        </div>
+                                    </div>
+                                    <div class="notification-row">
+                                        <div class="noti-col-image">
+                                            <img src="asset/user/OIP (4).jpg" alt="">
+                                        </div>
+                                        <div class="noti-col">
+                                            <p><b>Emma watson</b> replay you Comment: "Hello Word😍"</p>
+                                            <span><i class='bx bx-message-rounded-dots'></i> <p>Just now</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifi-footer">
+                                    View All
+                                </div>
+                            </div>
+                        </details>
+                        
+                            
+                            
+                        
+                        
+                    </div>
+                    <div class="title-profilr">
+                        <h4>Tert Sman</h4>
+                        <p>Admin</p>
+                    </div>
+                    <details>
+                        <summary><div class="image-profile">
+                            <img src="asset/user/user.jpeg" alt="">
+                        </div></summary>
+                        <div class="profil-header-box">
+                            <div class="profile-header-row">
+                                <p><i class='bx bxs-crown'></i> Get Pro</p>
+                            </div>
+                            <div class="profile-header-row">
+                                <h6>Set Status</h6>
+                                <h6>Profile & Account</h6>
+                                <h6>Feedback</h6>
+                            </div>
+                            <div class="profile-header-row">
+                                <h6><a href="Setting.html">Setting</a></h6>
+                                <h6><a href="LoginPage.html">Logout</a></h6>
+                                
+                            </div>
+                        </div>
+                    </details>
+                   
+                </div>
+            </div>
+
+            <!-- order-detials section -->
+
+            <div class="order-datail-section">
+                <div class="breadcrumb">
+                    <ol>
+                        <li class="breadcrum-item">
+                            <a href="#!">Page 1 ></a>
+                        </li>
+                        <li class="breadcrum-item">
+                            <a href="#!">Page 2 ></a>
+                        </li>
+                        <li class="breadcrum-item">
+                            Default
+                        </li>
+                    </ol>
+                </div>
+                <div class="order-detail">
+                    <div class="order-detail-header">
+                        <h2>Order #349</h2>
+                        <div class="header-detail">
+                            <div class="detail-head-left">
+                                <p>Customer ID : <a href="#">2364847</a></p>
+                            </div>
+                            <div class="detail-head-right">
+                                <div class="print-btn">
+                                    <span><i class='bx bx-printer'></i></span>
+                                    Print
+                                </div>
+                                <div class="more">
+                                    <details>
+                                        <summary>More Actions <span><i class='bx bx-chevron-down'></i></span></summary>
+                                        <ul>
+                                            <li>Action</li>
+                                            <li>Another action</li>
+                                            <li>Something else</li>
+                                        </ul>
+                                    </details>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-detail-body">
+                        <div class="detai-body-left">
+                            <div style="margin-bottom: 5px; overflow-x: auto;">
+                                <div style="overflow-x: auto;width: 100%; display: grid;" class="detail-order-item">
+                                    <div style="overflow: auto;">
+                                        <table>
+                                            <thead>
+
+
+                                                <tr>
+                                                    <th style="width: 5%;"></th>
+                                                    <th style="width: 35%; text-align: left;">product</th>
+                                                    <th style="width: 5%; text-align: center;">Color</th>
+                                                    <th style="width: 10%;">size</th>
+                                                    <th style="width: 10%;">Price</th>
+                                                    <th style="width: 10%; text-align: right;">Quantity</th>
+                                                    <th style="width: 10%; text-align: right;">total</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="image">
+                                                            <img src="asset/image/productImage/electronic3.jpg" alt="">
+                                                        </div>
+                                                    </td>
+                                                    <td><a href="#">Headphones</a></td>
+                                                    <td style="text-align: center;">Purple News</td>
+                                                    <td style="text-align: center;">pro</td>
+                                                    <td style="text-align: center;">$120</td>
+                                                    <td style="width: 10%; text-align: right;">2</td>
+                                                    <td style="width: 10%; text-align: right;">$240</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="image">
+                                                            <img src="asset/image/productImage/electronic5.jpg" alt="">
+                                                        </div>
+                                                    </td>
+                                                    <td><a href="#">HDTV</a></td>
+                                                    <td style="text-align: center;">Black</td>
+                                                    <td style="text-align: center;">xxl</td>
+                                                    <td style="text-align: center;">$1200</td>
+                                                    <td style="width: 10%; text-align: right;">1</td>
+                                                    <td style="width: 10%; text-align: right;">$1200</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="image">
+                                                            <img src="asset/image/productImage/electronic4.jpg" alt="">
+                                                        </div>
+                                                    </td>
+                                                    <td><a href="#">USB phone </a></td>
+                                                    <td style="text-align: center;">Black</td>
+                                                    <td style="text-align: center;">L</td>
+                                                    <td style="text-align: center;">$12</td>
+                                                    <td style="width: 10%; text-align: right;">5</td>
+                                                    <td style="width: 10%; text-align: right;">$60</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="image">
+                                                            <img src="asset/image/productImage/srom.jpg" alt="">
+                                                        </div>
+                                                    </td>
+                                                    <td><a href="#">Goalkeeping Gloves</a></td>
+                                                    <td style="text-align: center;">Black</td>
+                                                    <td style="text-align: center;">M</td>
+                                                    <td style="text-align: center;">$55</td>
+                                                    <td style="width: 10%; text-align: right;">2</td>
+                                                    <td style="width: 10%; text-align: right;">$110</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="detail-sub">
+                                    <p class="subtotal">Item sub Total :</p>
+                                    <p class="subtotal">$7,700</p>
+                                </div>
+                            </div>
+                            <div class="detail-address-section">
+                                <div class="detail-address-box">
+                                    <h4>Billing Details</h4>
+                                    <div class="flex-wrap">
+                                        <div class="detail-address-col">
+                                            <div class="detail-addreess-item">
+                                                <i class='bx bx-user'></i>
+                                                <p>Customer</p>
+                                            </div>
+                                            <a href="#">Shatinon Mekalan</a>
+                                        </div>
+                                        <div class="detail-address-col">
+                                            <div class="detail-addreess-item">
+                                                <i class='bx bx-envelope'></i>
+                                                <p>Email</p>
+                                            </div>
+                                            <a href="#">tertsman@gmail.com</a>
+                                        </div>
+                                        <div class="detail-address-col">
+                                            <div class="detail-addreess-item">
+                                                <i class='bx bx-phone'></i>
+                                                <p>Phone</p>
+                                            </div>
+                                            <a href="#">974 260 963</a>
+                                        </div>
+                                        <div class="detail-address-col">
+                                            <div class="detail-addreess-item">
+                                                <i class='bx bx-home'></i>
+                                                <p>Address
+                                                </p>
+                                            </div>
+                                            <div class="home-address">
+                                                <p>Shatinon Mekalan</p>
+                                                <p>Vancouver, British <br>Columbia,
+                                                    Canada</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="detail-address-box">
+                                    <h4>Shipping details</h4>
+                                    <div class="flex-wrap">
+                                   
+                                        <div class="detail-address-col">
+                                            <div class="detail-addreess-item">
+                                                <i class='bx bx-envelope'></i>
+                                                <p>Email</p>
+                                            </div>
+                                            <a href="#">tertsman@gmail.com</a>
+                                        </div>
+                                        <div class="detail-address-col">
+                                            <div class="detail-addreess-item">
+                                                <i class='bx bx-phone'></i>
+                                                <p>Phone</p>
+                                            </div>
+                                            <a href="#">974 260 963</a>
+                                        </div>
+                                        <div class="detail-address-col">
+                                            <div class="detail-addreess-item">
+                                                <i class='bx bx-calendar-minus'></i>
+                                                <p>Shipping date</p>
+                                            </div>
+                                            <span>12 Nov,2024</span>
+                                        </div>
+                                        <div class="detail-address-col">
+                                            <div class="detail-addreess-item">
+                                                <i class='bx bx-home'></i>
+                                                <p>Address
+                                                </p>
+                                            </div>
+                                            <div class="home-address">
+                                                <p>Shatinon Mekalan</p>
+                                                <p>Vancouver, British <br>Columbia,
+                                                    Canada</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="detail-address-box">
+                                    <h4>Other details</h4>
+                                    <div class="flex-wrap">
+                                        <div class="detail-address-col">
+                                            <div class="detail-addreess-item">
+                                                <i class='bx bx-gift'></i>
+                                                <p>Gift order</p>
+                                            </div>
+                                            <span>Yes</span>
+                                        </div>
+                                        <div class="detail-address-col">
+                                            <div class="detail-addreess-item">
+                                                <i class='bx bx-envelope'></i>
+                                                <p>Wrapping</p>
+                                            </div>
+                                            <span>Magic wrapper</span>
+                                        </div>
+                                        <div class="detail-address-col">
+                                            <div class="detail-addreess-item">
+                                                <i class='bx bx-receipt'></i>
+                                                <p>Recipient</p>
+                                            </div>
+                                            <span>Recipient</span>
+                                        </div>
+                                        <div class="detail-address-col">
+                                            <div class="detail-addreess-item">
+                                                <i class='bx bx-home'></i>
+                                                <p>Gift Message
+                                                </p>
+                                            </div>
+                                            <div class="home-address">
+                                                <p>Happy Birthday</p>
+                                                <p>Shiniga Lots of love </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="detai-body-right">
+                            <div class="order-summary-box">
+                                <div class="summary">
+                                    <div class="summary-body">
+                                        <h3 class="summary-title">Summary</h3>
+                                        <div class="summary-item">
+                                            <p>Item Subtotal :</p>
+                                            <p>$610</p>
+                                        </div>
+                                        <div class="summary-item">
+                                            <p>Discount :</p>
+                                            <p style="color: red;">$59</p>
+                                        </div>
+                                        <div class="summary-item">
+                                            <p>Tax :</p>
+                                            <p>$126.90</p>
+                                        </div>
+                                        <div class="summary-item">
+                                            <p>Sub Total :</p>
+                                            <p>$665</p>
+                                        </div>
+                                        <div class="summary-item">
+                                            <p>Shipping Cost :</p>
+                                            <p>$30</p>
+                                        </div>
+                                        <div class="summary-item-footer">
+                                            <h4>Total :</h4>
+                                            <h4>$695.20</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="order-summary-box">
+                                <div class="summary">
+                                    <div class="summary-body">
+                                        <h3 class="summary-title">Summary</h3>
+                                        <div class="card-item">
+                                            <h6>Payment status</h6>
+                                            <div class="from-control">
+                                                <select name="" id="">
+                                                    <option value="1">Processing</option>
+                                                    <option value="2">Cancelled</option>
+                                                    <option value="3">Completed</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="card-item">
+                                            <h6>Fulfilement status</h6>
+                                            <div class="from-control">
+                                                <select name="" id="">
+                                                    <option value="1">Unfulfilled</option>
+                                                    <option value="2">Fulfilled</option>
+                                                    <option value="3">Pending</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer">
+                &copy;Assignment team one 2025 | Developer Tert Sman
+            </div>
+
+            <!-- end -->
+            <!-- order detai -->
+
+        </main>
+        <div class="main-from">
+            <div class="frm">
+                <div class="frm-header">
+                    <div class="frm-title">
+                        <h4>Customer</h4>
+                    </div>
+                    <div class="form-action" id="close">
+                        <i class='bx bx-x'></i>
+                    </div>
+                </div>
+                <div class="from-body">
+                    <div class="from-controll">
+                        <input type="text" placeholder="customer Name">
+
+                    </div>
+                    <div class="from-controll">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="from-controll">
+                        <input type="text" placeholder="Order">
+                    </div>
+                    <div class="from-controll">
+                        <input type="text" placeholder="Total Spent">
+                    </div>
+                    <div class="from-controll">
+                        <select name="color" id="color">
+                            <option value="1">-----Country-----</option>
+                            <option value="1">Thai</option>
+                            <option value="1">Cambodia</option>
+                            <option value="1">Vietnam</option>
+
+                        </select>
+                    </div>
+                    <div class="from-controll">
+                        <select name="size" id="size">
+                            <option value="1">-----City----</option>
+                            <option value="1">Phnom Penh</option>
+                            <option value="1">Takev</option>
+                            <option value="1">Bang kork</option>
+                            <option value="1">Ho ji ming</option>
+                        </select>
+                    </div>
+                    <div class="from-controll">
+                        <input type="file" multiple>
+                    </div>
+                </div>
+                <div class="footerform">
+                    <div class="can-btn"><a>Cancale</a></div>
+                    <div class="save-btn"><a>save</a></div>
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let navigate = document.querySelector('.aside');
+        let main = document.querySelector('.mainsection')
+
+        toggle.onclick = function () {
+            navigate.classList.toggle('action');
+            main.classList.toggle('changwidth')
+        }
+        let add_New = document.querySelector('.btn-add');
+        let main_Form = document.querySelector('.main-from')
+        let btn_close = document.querySelector('.form-action');
+        let btn_save = document.querySelector(".save-btn");
+        let btn_cancel = document.querySelector(".can-btn");
+
+        add_New.onclick = function () {
+            main_Form.classList.add('showForm');
+        }
+        btn_close.onclick = function () {
+            main_Form.classList.remove('showForm')
+        }
+        btn_cancel.onclick = function () {
+            main_Form.classList.remove("showForm");
+        };
+        btn_save.onclick = function () {
+            main_Form.classList.remove("showForm");
+        };
+
+    </script>
+</body>
+
+</html>

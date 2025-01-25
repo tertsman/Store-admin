@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stye.css">
+    <link rel="shortcut icon" href="asset/user/fav.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Manage Product</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- aside -->
+        <div class="aside">
+            <div class="asideHeader">
+                <div class="logo">
+                    <i class='bx bx-cart'></i>
+                    <h1>Store.</h1>
+                </div>
+            </div>
+            <div class="asideMenu">
+                <ul>
+                    <li><a href="index.html">
+                            <span class="icon"><i class='bx bxs-dashboard'></i></span>
+                            <span class="title">Dashbord</span>
+                        </a></li>
+                    <li class="active-menu"><a href="ProductPage.html">
+                            <span class="icon"><i class='bx bxl-product-hunt'></i></span>
+                            <span class="title">Product</span>
+                        </a></li>
+                    <li><a href="categoryPage.html">
+                            <span class="icon"><i class='bx bx-category-alt'></i></span>
+                            <span class="title">Category</span>
+                        </a></li>
+                    <li><a href="CustomerPage.html">
+                            <span class="icon"><i class='bx bx-user'></i></span>
+                            <span class="title">Customer</span>
+                        </a></li>
+                    <li><a href="Order.html">
+                            <span class="icon"><i class='bx bx-cart-add'></i></span>
+                            <span class="title">Order</span>
+                        </a></li>
+                    <li><a href="Setting.html">
+                            <span class="icon"><i class='bx bx-cog'></i></span>
+                            <span class="title">Setting</span>
+                        </a></li>
+                        <li><a href="LoginPage.html" >
+                            <span class="icon"><i class='bx bx-log-in' style="color: red;" ></i></span>
+                            <span class="title" style="color: red;" >Login</span>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end -->
+        <!-- main -->
+        <main class="mainsection">
+            <div class="mainheader">
+                <div class="toggle">
+                    <i class='bx bx-menu-alt-left'></i>
+                </div>
+                <div class="seachbar">
+                    <input type="text" placeholder="Seacr item ...">
+                    <div class="icon"><i class='bx bx-search'></i></div>
+                </div>
+                <div class="profile-user">
+                    <div class="notification">
+                        <details>
+                            <summary><i class='bx bxs-bell'><span class="not">5</span></i></summary>
+                            <div class="notification-box">
+                                <div class="noti-header">
+                                    <p>Notifications</p>
+                                    <span><a href="#">Mark all as read</a></span>
+                                </div>
+                                <div class="notifi-body">
+                                    <div class="notification-row">
+                                        <div class="noti-col-image">
+                                            <img src="asset/user/OIP (1).jpg" alt="">
+                                        </div>
+                                        <div class="noti-col">
+                                            <p><b>Emma watson</b> replay you Comment: "Hello Word😍"</p>
+                                            <span><i class='bx bx-message-rounded-dots'></i> <p>Just now</p></span>
+                                        </div>
+                                    </div>
+                                    <div class="notification-row">
+                                        <div class="noti-col-image">
+                                            <img src="asset/user/OIP (2).jpg" alt="">
+                                        </div>
+                                        <div class="noti-col">
+                                            <p><b>Emma watson</b> replay you Comment: "Hello Word😍"</p>
+                                            <span><i class='bx bx-message-rounded-dots'></i> <p>Just now</p></span>
+                                        </div>
+                                    </div>
+                                    <div class="notification-row">
+                                        <div class="noti-col-image">
+                                            <img src="asset/user/OIP.jpg" alt="">
+                                        </div>
+                                        <div class="noti-col">
+                                            <p><b>Emma watson</b> replay you Comment: "Hello Word😍"</p>
+                                            <span><i class='bx bx-message-rounded-dots'></i> <p>Just now</p></span>
+                                        </div>
+                                    </div>
+                                    <div class="notification-row">
+                                        <div class="noti-col-image">
+                                            <img src="asset/user/th.jpg" alt="">
+                                        </div>
+                                        <div class="noti-col">
+                                            <p><b>Emma watson</b> replay you Comment: "Hello Word😍"</p>
+                                            <span><i class='bx bx-message-rounded-dots'></i> <p>Just now</p></span>
+                                        </div>
+                                    </div>
+                                    <div class="notification-row">
+                                        <div class="noti-col-image">
+                                            <img src="asset/user/OIP (4).jpg" alt="">
+                                        </div>
+                                        <div class="noti-col">
+                                            <p><b>Emma watson</b> replay you Comment: "Hello Word😍"</p>
+                                            <span><i class='bx bx-message-rounded-dots'></i> <p>Just now</p></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifi-footer">
+                                    View All
+                                </div>
+                            </div>
+                        </details>
+                        
+                            
+                            
+                        
+                        
+                    </div>
+                    <div class="title-profilr">
+                        <h4>Tert Sman</h4>
+                        <p>Admin</p>
+                    </div>
+                    <details>
+                        <summary><div class="image-profile">
+                            <img src="asset/user/user.jpeg" alt="">
+                        </div></summary>
+                        <div class="profil-header-box">
+                            <div class="profile-header-row">
+                                <p><i class='bx bxs-crown'></i> Get Pro</p>
+                            </div>
+                            <div class="profile-header-row">
+                                <h6>Set Status</h6>
+                                <h6>Profile & Account</h6>
+                                <h6>Feedback</h6>
+                            </div>
+                            <div class="profile-header-row">
+                                <h6><a href="Setting.html">Setting</a></h6>
+                                <h6><a href="LoginPage.html">Logout</a></h6>
+                                
+                            </div>
+                        </div>
+                    </details>
+                   
+                </div>
+            </div>
+
+            <!-- Product section -->
+            <div class="product-section">
+
+                <div class="product-header">
+                    <h1>Product</h1>
+                    <div class="header-product-left">
+                        <div class="seachbar">
+                            <input type="text" placeholder="Seacr item ...">
+                            <div class="icon"><i class='bx bx-search'></i></div>
+                        </div>
+                        <ul class="sort-category">
+                            <li>Category
+                                <ul class="drop-down">
+                                    <li>Women</li>
+                                    <li>men</li>
+                                    <li>sport</li>
+                                    <li>Pet</li>
+                                    <li>Girl's</li>
+                                    <li>Boy</li>
+                                </ul>
+                            </li>
+                            <i class='bx bx-chevron-right'></i>
+                        </ul>
+                        <ul class="sort-category">
+
+                            <li>Short
+                                <ul class="drop-down">
+                                    <li>show 6</li>
+                                    <li>show 12</li>
+                                    <li>show 18</li>
+                                    <li>show 24</li>
+                                    
+                                </ul>
+                            </li>
+                            <i class='bx bx-chevron-right'></i>
+                        </ul>
+
+
+                        <div class="btn-add" id="addnew"><a>New</a></div>
+                    </div>
+                </div>
+                <!-- <div class="main-from">
+                        <div class="frm">
+                            <div class="frm-header">
+                                <div class="frm-title">
+                                    <h4>Add Product</h4>
+                                </div>
+                                <div class="form-action" id="close">
+                                    <i class='bx bx-x'></i>
+                                </div>
+                            </div>
+                            <div class="from-body">
+                                <div class="from-controll">
+                                    <input type="text" placeholder="Product Name">
+                                    
+                                </div>
+                                <div class="from-controll">
+                                    <input type="text" placeholder="product Des">
+                                </div>
+                                <div class="from-controll">
+                                    <input type="text" placeholder="Price">
+                                </div>
+                                <div class="from-controll">
+                                    <input type="text" placeholder="Quantity">
+                                </div>
+                            </div>
+                            <div class="footerform"> 
+                                <div class="can-btn"><a href="#">Cancale</a></div>
+                                <div class="save-btn"><a href="#">save</a></div>
+                            </div>
+                        </div>
+                    </div> -->
+                <div class="product-body">
+                    <table class="product-data">
+                        <tr>
+                            <th style="width: 50px;">image</th>
+                            <th style="width: 25%;">Product Name</th>
+                            <th>Descriptions</th>
+                            <th>Price </th>
+                            <th>Category</th>
+                            <th>Quantity</th>
+
+                            <th>Action</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-image">
+                                    <img src="asset/image/productImage/girl/girl1.jpg" alt="">
+                                </div>
+                            </td>
+                            <td><a href="#" type="email">Happy Sailed Womens Summer Boho Floral</a></td>
+                            <td>Description</td>
+                            <td>100$</td>
+                            <td>Girl fashion</td>
+                            <td>21</td>
+                            <td class="Action-btn" style="width: 100px;">
+                                <div class="edit">
+                                    <a href="#">Edit</a>
+                                    <i class='bx bxs-edit-alt'></i>
+                                </div>
+                                <div class="del">
+
+                                    <i class='bx bx-x'></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-image">
+                                    <img src="asset/image/productImage/beauty/OIP (1).jpg" alt="">
+                                </div>
+                            </td>
+                            <td> Summer Boho Floral</td>
+                            <td>Description</td>
+                            <td>100$</td>
+                            <td>Beauty</td>
+                            <td>21</td>
+                            <td class="Action-btn" style="width: 100px;">
+                                <div class="edit">
+                                    <a href="#">Edit</a>
+                                    <i class='bx bxs-edit-alt'></i>
+                                </div>
+                                <div class="del">
+
+                                    <i class='bx bx-x'></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-image">
+                                    <img src="asset/image/productImage/apparel3.jpg" alt="">
+                                </div>
+                            </td>
+                            <td>Summer Boho Floral</td>
+                            <td>Description</td>
+                            <td>100$</td>
+                            <td>Women</td>
+                            <td>21</td>
+                            <td class="Action-btn" style="width: 100px;">
+                                <div class="edit">
+                                    <a href="#">Edit</a>
+                                    <i class='bx bxs-edit-alt'></i>
+                                </div>
+                                <div class="del">
+
+                                    <i class='bx bx-x'></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-image">
+                                    <img src="asset/user/OIP (1).jpg" alt="">
+                                </div>
+                            </td>
+                            <td>Name</td>
+                            <td>Description</td>
+                            <td>100$</td>
+                            <td>Electronic</td>
+                            <td>21</td>
+                            <td class="Action-btn" style="width: 100px;">
+                                <div class="edit">
+                                    <a href="#">Edit</a>
+                                    <i class='bx bxs-edit-alt'></i>
+                                </div>
+                                <div class="del">
+
+                                    <i class='bx bx-x'></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-image">
+                                    <img src="asset/user/OIP (1).jpg" alt="">
+                                </div>
+                            </td>
+                            <td>Name</td>
+                            <td>Description</td>
+                            <td>100$</td>
+                            <td>Electronic</td>
+                            <td>21</td>
+                            <td class="Action-btn" style="width: 100px;">
+                                <div class="edit">
+                                    <a href="#">Edit</a>
+                                    <i class='bx bxs-edit-alt'></i>
+                                </div>
+                                <div class="del">
+
+                                    <i class='bx bx-x'></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-image">
+                                    <img src="asset/image/productImage/electronic5.jpg" alt="">
+                                </div>
+                            </td>
+                            <td>HD TV</td>
+                            <td>Description</td>
+                            <td>100$</td>
+                            <td>Electronic</td>
+                            <td>21</td>
+                            <td class="Action-btn" style="width: 100px;">
+                                <div class="edit">
+                                    <a href="#">Edit</a>
+                                    <i class='bx bxs-edit-alt'></i>
+                                </div>
+                                <div class="del">
+
+                                    <i class='bx bx-x'></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-image">
+                                    <img src="asset/image/productImage/boy/boy4.jpg" alt="">
+                                </div>
+                            </td>
+                            <td>Fashon relate</td>
+                            <td>Description</td>
+                            <td>100$</td>
+                            <td>Boy</td>
+                            <td>21</td>
+                            <td class="Action-btn" style="width: 100px;">
+                                <div class="edit">
+                                    <a href="#">Edit</a>
+                                    <i class='bx bxs-edit-alt'></i>
+                                </div>
+                                <div class="del">
+
+                                    <i class='bx bx-x'></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-image">
+                                    <img src="asset/image/productImage/home kitchen/kitchen1.jpg" alt="">
+                                </div>
+                            </td>
+                            <td>home kitchen</td>
+                            <td>Description</td>
+                            <td>100$</td>
+                            <td>Home</td>
+                            <td>21</td>
+                            <td class="Action-btn" style="width: 100px;">
+                                <div class="edit">
+                                    <a href="#">Edit</a>
+                                    <i class='bx bxs-edit-alt'></i>
+                                </div>
+                                <div class="del">
+
+                                    <i class='bx bx-x'></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-image">
+                                    <img src="asset/image/productImage/sport1.jpg" alt="">
+                                </div>
+                            </td>
+                            <td>Foot ball cambodia shirt</td>
+                            <td>Description</td>
+                            <td>100$</td>
+                            <td>Electronic</td>
+                            <td>21</td>
+                            <td class="Action-btn" style="width: 100px;">
+                                <div class="edit">
+                                    <a href="#">Edit</a>
+                                    <i class='bx bxs-edit-alt'></i>
+                                </div>
+                                <div class="del">
+
+                                    <i class='bx bx-x'></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-image">
+                                    <img src="asset/user/OIP (1).jpg" alt="">
+                                </div>
+                            </td>
+                            <td>Name</td>
+                            <td>Description</td>
+                            <td>100$</td>
+                            <td>Electronic</td>
+                            <td>21</td>
+                            <td class="Action-btn" style="width: 100px;">
+                                <div class="edit">
+                                    <a href="#">Edit</a>
+                                    <i class='bx bxs-edit-alt'></i>
+                                </div>
+                                <div class="del">
+
+                                    <i class='bx bx-x'></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-image">
+                                    <img src="asset/image/productImage/men/bage1.jpg" alt="">
+                                </div>
+                            </td>
+                            <td style="font-family: 'khmer os battambang' ; ">កាបូបស្ពាយជំហៀង</td>
+                            <td>Description</td>
+                            <td>100$</td>
+                            <td>Electronic</td>
+                            <td>21</td>
+                            <td class="Action-btn" style="width: 100px;">
+                                <div class="edit">
+                                    <a href="#">Edit</a>
+                                    <i class='bx bxs-edit-alt'></i>
+                                </div>
+                                <div class="del">
+
+                                    <i class='bx bx-x'></i>
+                                </div>
+                            </td>
+                        </tr>
+
+
+                    </table>
+                </div>
+                <div class="product-footer">
+
+                    <div class="pagination active">1</div>
+                    <div class="pagination"> <a href="ProductPage1.html">2</a></div>
+                    <div class="pagination"><i class='bx bx-right-arrow-alt'></i><a href="ProductPage.html"></a></div>
+                </div>
+            </div>
+
+            <div class="footer">
+                &copy;Assignment team one 2025 | Developer Tert Sman
+            </div>
+            <!-- end -->
+            <!-- order detai -->
+
+        </main>
+        <div class="main-from">
+            <div class="frm">
+                <div class="frm-header">
+                    <div class="frm-title">
+                        <h4>Add Product</h4>
+                    </div>
+                    <div class="form-action" id="close">
+                        <i class='bx bx-x'></i>
+                    </div>
+                </div>
+                <div class="from-body">
+                    <div class="from-controll">
+                        <input type="text" placeholder="Product Name">
+
+                    </div>
+                    <div class="from-controll">
+                        <input type="text" placeholder="product Des">
+                    </div>
+                    <div class="from-controll">
+                        <input type="text" placeholder="Price">
+                    </div>
+                    <div class="from-controll">
+                        <input type="text" placeholder="Quantity">
+                    </div>
+                    <div class="from-controll">
+                        <select name="color" id="color">
+                            <option value="1">-----select-----</option>
+                            <option value="1">Red</option>
+                            <option value="1">Blue</option>
+                            <option value="1">Green</option>
+                            <option value="1">Pink</option>
+                        </select>
+                    </div>
+                    <div class="from-controll">
+                        <select name="size" id="size">
+                            <option value="1">-----select----</option>
+                            <option value="1">S</option>
+                            <option value="1">Xl</option>
+                            <option value="1">XXl</option>
+                            <option value="1">2xl</option>
+                        </select>
+                    </div>
+                    <div class="from-controll">
+                        <input type="file" multiple>
+                    </div>
+                </div>
+                <div class="footerform">
+                    <div class="can-btn"><a>Cancale</a></div>
+                    <div class="save-btn"><a>save</a></div>
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let navigate = document.querySelector('.aside');
+        let main = document.querySelector('.mainsection')
+
+        toggle.onclick = function () {
+            navigate.classList.toggle('action');
+            main.classList.toggle('changwidth')
+        }
+        let add_New = document.querySelector('.btn-add');
+        let main_Form = document.querySelector('.main-from')
+        let btn_close = document.querySelector('.form-action');
+        let btn_save = document.querySelector(".save-btn");
+        let btn_cancel = document.querySelector(".can-btn");
+
+        add_New.onclick = function () {
+            main_Form.classList.add('showForm');
+        }
+        btn_close.onclick = function () {
+            main_Form.classList.remove('showForm')
+        }
+        btn_cancel.onclick = function () {
+            main_Form.classList.remove("showForm");
+        };
+        btn_save.onclick = function () {
+            main_Form.classList.remove("showForm");
+        };
+
+    </script>
+</body>
+
+</html>
